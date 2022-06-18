@@ -1,0 +1,195 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f9f9f9;
+}
+
+span {
+    color:rgb(5, 124, 229) ;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #050101;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(5, 124, 229);
+    text-decoration: dashed;
+}
+
+.active {
+    color:rgb(5, 124, 229) ;
+}
+
+.Home {
+    height: 95vh;
+    border: 1px solid;
+    background-image: url("banner.webp");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+
+.Home h2 {
+    color: #ffff;
+    z-index: 1;
+    padding: 20px 25px;
+    border-left: 3px solid #ffff ;
+}
+
+.About {
+    height: 60vh;
+    background-color: #050101;
+}
+.About h3 {
+    text-align: center;
+    padding: 60px 0;
+    color: #ffff;
+}
+
+span {
+    color:rgb(5, 124, 229) ;
+}
+
+.About p {
+    color: #ffff;
+    word-spacing: 2px;
+    line-height: 25px; 
+}
+
+.Characters {
+    height: 80vh;
+    background-color: #ffff;
+}
+
+.Characters h3 {
+    text-align: center;
+    padding: 60px 0;
+    color: #050101;
+}
+
+.list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Card {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.Card img {
+    width: 80%;
+    border-radius: 50%;
+    
+}
+
+.Card p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #050101;
+}
+
+.Contact {
+    height: 60vh;
+    padding: 50px 0px;
+    background-color: #050101;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+
+}
+.Contact h3 {
+    text-align: center;
+    padding: 60px 0;
+    color: #ffff;
+}
+
+.Contact h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffff;
+    width: 100%;
+    line-height: 50px;
+}
+.Contact p {
+    color: #ffff;
+}
+
+.Copyright {
+    text-align: center;
+    width: 100%;
+    padding: 25px 0px;
+    margin-top: 15px;
+}
